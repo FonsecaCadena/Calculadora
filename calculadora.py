@@ -38,7 +38,8 @@ def calculator():
          num2 = float(input("Enter the second number: "))
 
          if option == '1':
-             print("The result of the addition is:", sum(num1, num2))
+             print("The result of the addition is:", sum(num1, n3
+             um2))
          elif option == '2':
              print("The result of the subtraction is:", subtraction(num1, num2))
          elif option == '3':
@@ -48,4 +49,3 @@ def calculator():
          else:
              print("Invalid option. Please select a valid option.")
 calculator()
-
